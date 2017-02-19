@@ -1,9 +1,10 @@
-import math
+from math import floor
 
+entered_number = (input("Please enter a number: ") -1
 
-entered_number = (input("Please enter a number: ") -1)
-
+#how many times the multiples of three should be multiplied and added
 increments_of_three = int(math.floor(entered_number / 3))
+#how many times the multiples of five should be multiplied and added
 increments_of_five = int(math.floor(entered_number / 5))
 
 multiples_of_three = 0;
